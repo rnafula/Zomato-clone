@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<style>
+    .header{
+        background-image:url(/Frontend/bg1.avif);
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+   .header ul{
+        display:flex;
+        gap:30px;
+        list-style-type: none;
+    }
+    .header a{
+        color:white;
+        text-decoration: none;
+        font-weight: 100;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+.image1 img{
+    width:90%;
+    margin:2px auto;
+  
+}
+ div input[type="search"]{
+    border:0;
+}
+div select{
+    border:none;
+    border-right: 1px solid grey;
+    padding-right: 8px;
+    
+}
+.search{
+    display:flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width:35%;
+    margin: 20px auto;
+    gap:20px;
+}
+.section2{
+    display:flex;
+    gap:10px;
+    width: 1050px;
+    height: 200px;
+    margin:5px auto;
+
+}
+.content1, .content2, .content3{
+    border-radius: 8px;
+    overflow: hidden;
+    width:350px;
+    border:1px solid rgb(191, 188, 188);
+
+}
+.content1 img,.content2 img,.content3 img {
+    width:350px;
+    height:100px;
+
+}
+.paragraphs{
+   text-align: left;
+   padding-left:10px;
+}
+</style>
+</head>
+<body>
+    <section class="header">
+        <header class="head">
+            <div class="image">
+                <i class="fa-solid fa-mobile-button" style="color: #45454a;"></i> <span style="color: #fbfbfe;">Get App</span> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="">Add Restaurant</a></li>
+                    <li><a href="">Log In</a></li>
+                    <li><a href="">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero-section">
+            <div class="image-1">
+                <img src="/Frontend/zom.avif" alt="" style="height:20%; width:30%; ">
+            </div> 
+        </div>
+        <h1>Discover best food and drink in Denhi NCR</h1>
+        <div class="search">
+            
+            <div>
+                <i class="fa-solid fa-location-dot" style="color: #e35f5f;"></i>
+                <select>
+                     <option value="Ywca Ashoka Rd Hanu">Ywca,1, Ashoka Rd, Hanu</option>
+                </select>
+            </div>
+            <div>
+                    <i class="fa-solid fa-magnifying-glass" style="color: #7c7e83;"></i><input  type="search" name="search" id="ah"  placeholder="search for Restaurant cuisine or dish">
+            </div>
+            
+        </div>
+    </section>
+    <section class="section2">
+        <div class="content1">
+            <div><img src="/Frontend/order.avif" alt=""></div>
+            <div class="paragraphs">
+                <p>Order Online</p>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        <div class="content2">
+            <div><img src="/Frontend/venue.avif" alt=""></div>
+            <div class="paragraphs">
+                <p>Dining</p>
+                <p> View the city's favourite dining venues</p>
+            </div>
+       
+        </div>
+        <div class="content3">
+            <div><img src="/Frontend/live.jpg" alt=""></div>
+            <div class="paragraphs">
+                <p>Live Events</p>
+                <p>Discover India's best events and concerts</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
